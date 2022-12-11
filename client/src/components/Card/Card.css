@@ -1,0 +1,142 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+.card-img {
+  order: 1;
+  min-height: 300px;
+  max-height: 300px;
+  /* border-radius: 16px; */
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+}
+
+.location-pin {
+  color: var(--blu);
+  position: relative;
+  top: 1px;
+  margin-right: 0.5rem;
+}
+
+.country {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+.google-link {
+  text-transform: capitalize;
+  font-weight: 300;
+  color: var(--blu);
+}
+
+.google-link:hover {
+  color: var(--grn);
+}
+
+/*************
+Typography
+**************/
+
+.card-heading {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blu);
+  order: 3;
+}
+
+.travel-dates {
+  font-weight: 700;
+  order: 4;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  order: 5;
+  font-weight: 300;
+}
+
+/*************
+Layout
+**************/
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  /* border-bottom: 0.5px solid var(--blu); */
+}
+
+.card-content {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-container {
+  order: 1;
+  position: relative;
+}
+
+.card-subheading {
+  order: 2;
+}
+
+/*************
+Media Queries @700px
+**************/
+
+@media (min-width: 700px) {
+  /*************
+General styling / Elements @700px
+**************/
+
+  /*************
+Images @700px
+**************/
+
+  .card-img {
+    min-height: 100%;
+    max-height: 300px;
+  }
+
+  /*************
+Buttons / Links / li / inputs @700px
+**************/
+
+  /*************
+Typography @700px
+**************/
+
+  /*************
+Layout @700px
+**************/
+
+  .card-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card-img-container {
+    flex: 2;
+  }
+
+  .card-content {
+    flex: 3;
+  }
+
+  /*************
+Media Queries
+**************/
+}

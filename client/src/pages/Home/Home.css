@@ -1,0 +1,40 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+/*************
+Typography
+**************/
+
+/*************
+Layout
+**************/
+
+.home-main {
+  min-height: 80vh;
+  background-color: var(--wht);
+}
+
+/* .home-main-container {
+  padding: 2rem 0;
+} */
+
+.card-holder {
+  border-bottom: 0.5px solid var(--blu);
+}
+
+.card-holder:last-of-type {
+  border-bottom: none;
+}
+
+/*************
+Media Queries
+**************/

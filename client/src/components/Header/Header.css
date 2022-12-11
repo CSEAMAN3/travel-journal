@@ -1,0 +1,78 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+.header-nav-list-item {
+  font-weight: 700;
+  margin-left: 1rem;
+  color: var(--wht);
+}
+
+.header-nav-list-item:hover {
+  color: var(--grn);
+}
+
+.header-globe {
+  position: relative;
+  top: 3px;
+  margin-right: 0.5rem;
+}
+
+/*************
+Typography
+**************/
+
+.logo {
+  text-transform: uppercase;
+  color: var(--wht);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/*************
+Layout
+**************/
+
+.header {
+  background-color: var(--blu);
+  color: var(--wht);
+  padding: 2rem 0;
+  background-color: var(--blu);
+  background-image: url(../../images/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: none;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 900px) {
+  .header-nav {
+    display: block;
+  }
+}
