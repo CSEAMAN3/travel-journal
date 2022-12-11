@@ -80,7 +80,7 @@ export default function Footer() {
               <li className="footer-section-list-item">Gift cards</li>
             </Link>
             <Link className="footer-section-link">
-              <li className="footer-section-list-item">Careers</li>
+              <li className="footer-section-list-item">Career</li>
             </Link>
           </ul>
         </div>
